@@ -5,7 +5,7 @@ Superprosta biblioteka do generowania wypowiedzi w stylu krula.
 Instalacja
 --
 `
-go get https://github.com/bopke/korwin
+go get github.com/bopke/korwin
 `
 
 Użycie
