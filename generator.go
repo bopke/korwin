@@ -139,7 +139,7 @@ var korwin6 = []string{
 	"a zwykłym ludziom wmawiają, że im coś \"dadzą\".",
 	"— cóż: chcieliście (tfu!) demokracji, to macie.",
 	"dlatego trzeba zlikwidować koryto, a nie zmieniać świnie.",
-	"a wystarczyłoby przestać wpłacać zasiłki.",
+	"a wystarczyłoby przestać wypłacać zasiłki.",
 	"podczas gdy normalni ludzie uważani są za dziwaków.",
 	"co w wieku XIX po prostu by wyśmiano.",
 	"— dlatego w społeczeństwie jest równość, a powinno być rozwarstwienie.",
