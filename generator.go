@@ -3,7 +3,6 @@ package korwin
 import (
 	"math/rand"
 	"strings"
-	"time"
 )
 
 var korwin1 = []string{
@@ -156,14 +155,13 @@ var korwin6 = []string{
 }
 
 func GenerateStatement() string {
-	random := rand.New(rand.NewSource(time.Now().UnixNano()))
 	statement := []string{
-		korwin1[random.Intn(len(korwin1))],
-		korwin2[random.Intn(len(korwin2))],
-		korwin3[random.Intn(len(korwin3))],
-		korwin4[random.Intn(len(korwin4))],
-		korwin5[random.Intn(len(korwin5))],
-		korwin6[random.Intn(len(korwin6))],
+		korwin1[rand.Intn(len(korwin1))],
+		korwin2[rand.Intn(len(korwin2))],
+		korwin3[rand.Intn(len(korwin3))],
+		korwin4[rand.Intn(len(korwin4))],
+		korwin5[rand.Intn(len(korwin5))],
+		korwin6[rand.Intn(len(korwin6))],
 	}
 	return strings.Join(statement, " ")
 }
