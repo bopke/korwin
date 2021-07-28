@@ -155,13 +155,12 @@ var korwin6 = []string{
 }
 
 func GenerateStatement() string {
-	statement := []string{
+	return strings.Join([]string{
 		korwin1[rand.Intn(len(korwin1))],
 		korwin2[rand.Intn(len(korwin2))],
 		korwin3[rand.Intn(len(korwin3))],
 		korwin4[rand.Intn(len(korwin4))],
 		korwin5[rand.Intn(len(korwin5))],
 		korwin6[rand.Intn(len(korwin6))],
-	}
-	return strings.Join(statement, " ")
+	}, " ")
 }
